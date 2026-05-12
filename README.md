@@ -23,6 +23,10 @@ Match Function how closely input matches cluster
 If similarity exceeds vigilance:resonance occurs
 Pattern accepted by cluster.
 Step 1 Initialize weights. step 2 input given patern s3-calculate similarity s4-perform vigilance test s5 if match-assign cluster,update wts else -search nother cluster
+p9-Why Random Weights?To avoid:
+symmetry problem
+If all weights are same: all neurons learn same thing
+“Forward  [pass ]propagation sends inputs through weighted connections and activation functions to generate predictions.”
 p4 dta.csv
 # Step 1: Import Libraries
 import pandas as pd
