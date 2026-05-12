@@ -9,8 +9,7 @@ associative memory network
 
 It stores-input-output pattern pairs
 Adaptive Resonance Theory (ART) Neural Network
-
-ART is used for:
+ART is used for:unsupervised
 
 pattern recognition
 clustering
@@ -18,9 +17,10 @@ classification
 
 without forgetting old patterns.
 
-This is called:
+This is called:Stability–Plasticity Property
+vigilance parameter?
 
-Stability–Plasticity Property
+Threshold value that determines whether a pattern matches an existing cluster.
 p4 dta.csv
 # Step 1: Import Libraries
 import pandas as pd
