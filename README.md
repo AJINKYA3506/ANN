@@ -7,9 +7,20 @@ BAM is a type of:
 recurrent neural network
 associative memory network
 
-It stores:
+It stores-input-output pattern pairs
+Adaptive Resonance Theory (ART) Neural Network
 
-input-output pattern pairs
+ART is used for:
+
+pattern recognition
+clustering
+classification
+
+without forgetting old patterns.
+
+This is called:
+
+Stability–Plasticity Property
 p4 dta.csv
 # Step 1: Import Libraries
 import pandas as pd
