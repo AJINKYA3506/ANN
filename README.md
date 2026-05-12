@@ -9,18 +9,20 @@ associative memory network
 
 It stores-input-output pattern pairs
 Adaptive Resonance Theory (ART) Neural Network
-ART is used for:unsupervised
-
+p8-ART is used for:unsupervised
 pattern recognition
 clustering
 classification
-
 without forgetting old patterns.
-
 This is called:Stability–Plasticity Property
-vigilance parameter?
-
-Threshold value that determines whether a pattern matches an existing cluster.
+vigilance parameter? Threshold value that determines whether a pattern matches an existing cluster.
+Bottom-Up Weights Meaning input → cluster comparison
+Top-Down Weight Matri cluster → input matching
+Choice Function similarity score
+Match Function how closely input matches cluster
+If similarity exceeds vigilance:resonance occurs
+Pattern accepted by cluster.
+Step 1 Initialize weights. step 2 input given patern s3-calculate similarity s4-perform vigilance test s5 if match-assign cluster,update wts else -search nother cluster
 p4 dta.csv
 # Step 1: Import Libraries
 import pandas as pd
