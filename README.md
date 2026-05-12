@@ -2,6 +2,14 @@ Q4. What is the vanishing gradient problem? During backpropagation, gradients be
 Bias shifts decision boundary.
 Bias helps improve classification accuracy.
 Learning rate controls how much weights update during training.
+BAM is a type of:
+
+recurrent neural network
+associative memory network
+
+It stores:
+
+input-output pattern pairs
 p4 dta.csv
 # Step 1: Import Libraries
 import pandas as pd
