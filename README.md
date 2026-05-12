@@ -27,6 +27,10 @@ p9-Why Random Weights?To avoid:
 symmetry problem
 If all weights are same: all neurons learn same thing
 “Forward  [pass ]propagation sends inputs through weighted connections and activation functions to generate predictions.”
+p10-Hopfield Network is used for:
+associative memory pattern storage, pattern recovery 
+It can recover:noisy or incomplete pattern
+hebabian learning rule[Neurons that fire together wire together.”] This stores patterns into network memory
 p4 dta.csv
 # Step 1: Import Libraries
 import pandas as pd
